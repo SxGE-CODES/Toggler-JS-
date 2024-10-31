@@ -1,0 +1,52 @@
+/* This is the Stylesheet */
+
+body {
+  transition: all 0.2s;
+  scroll-behavior: smooth;
+}
+
+/* Style for Light Mode */
+.toggle-container-light-mode {
+  border: none;
+  height: 20px;
+  width: 40px;
+  border-radius: 37.5px;
+  background-color: rgb(192, 199, 205);
+  position: relative;
+  transition: all 0.9s;
+}
+
+.toggler-light-mode {
+  border: none;
+  height: 16.5px;
+  width: 16.5px;
+  border-radius: 8.75px;
+  background-color: rgb(53, 52, 60);
+  position: absolute;
+  top: 1.5px;
+  left: 3px;
+  transition: all 0.9s, left 0.3s;
+}
+
+/* Style for Dark Mode */
+.toggle-container-dark-mode {
+  border: none;
+  height: 20px;
+  width: 40px;
+  border-radius: 17.5px;
+  background-color: rgb(200, 191, 255);
+  position: relative;
+  transition: all 0.9s;
+}
+
+.toggler-dark-mode {
+  border: none;
+  height: 16.5px;
+  width: 16.5px;
+  border-radius: 8.75px;
+  background-color: rgb(61, 0, 222);
+  position: absolute;
+  top: 1.5px;
+  left: 20px;
+  transition: all 0.9s, left 0.3s;
+}
